@@ -5,8 +5,9 @@
 ## Do I want to use a generalized scraper or write a scraper for each site?
 ## How do I scrape from Pdfs with different structures? 
 
-### Promising Libs
+### Promising **Libs**
 - Scrapegraph-ai with ollama
+- Marker-pdf parses pdfs to markdown
 
 ## German Foreclosure Auction Sites
 - https://www.zvg-portal.de/ (official website of the german government where foreclosure auctions can be found for selected regional courts) (Effort: uniform general description, more detailed information in unstructured PDFs, which would need to be extracted)
