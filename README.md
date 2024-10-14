@@ -4,6 +4,8 @@
 ## Which libs to analyze pdfs and different sites?
 ## Do I want to use a generalized scraper or write a scraper for each site?
 ## How do I scrape from Pdfs with different structures? 
+## What to use for Information Extraction/Named Entity Recognition?
+
 
 ### Promising **Libs**
 - Scrapegraph-ai with ollama
