@@ -1,6 +1,8 @@
 #autogluon 3.12 november supports python 3.12
-jupyter
-pandas
-matplotlib
-beautifulsoup4
+jupyter==1.1.1
+pandas==2.2.3
+matplotlib==3.9.2
+beautifulsoup4==4.12.3
+SQLAlchemy==2.0.36
+pydantic==2.9.2
 # search libs

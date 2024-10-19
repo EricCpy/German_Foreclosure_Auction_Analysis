@@ -1,5 +1,5 @@
 # German Foreclosure Auction Scraper
-
+This project uses python 3.12
 ## Questions
 ## Which libs to analyze pdfs and different sites?
 ## Do I want to use a generalized scraper or write a scraper for each site?

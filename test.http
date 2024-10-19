@@ -1,4 +1,0 @@
-POST https://www.zvg-portal.de/index.php?button=Suchen&all=1
-Content-Type: application/x-www-form-urlencoded
-
-ger_name=--+Alle+Amtsgerichte+--&order_by=2&land_abk=be
