@@ -9,30 +9,26 @@ This project uses python 3.12
 
 
 ### Promising **Libs**
-- Scrapegraph-ai with ollama
-- Marker-pdf parses pdfs to markdown
 
-- spacy
-
-- Parsio
-
-- pdfplumber
-- PyPDF2
-- PdfMiner
-- PyMuPDF
 - Langchain
 
 - unstructured
+  - https://colab.research.google.com/drive/1BJYYyrPVe0_9EGyXqeNyzmVZDrCRZwsg?usp=sharing
 
+Information Extraction:
 - https://www.youtube.com/watch?v=xZzvwR9jdPA
-- https://www.youtube.com/watch?v=CBtnQ94b5GM
-- https://medium.com/@jakob.salomonsson/how-to-fine-tune-an-nlp-transformer-model-fc8b1c53abea
-- https://medium.com/ubiai-nlp/fine-tuning-mistral-7b-for-named-entity-recognition-ner-bbb96af918d3
-- https://medium.com/@jakob.salomonsson/how-to-fine-tune-an-nlp-transformer-model-fc8b1c53abea
-- https://medium.com/thecyphy/training-custom-ner-model-using-flair-df1f9ea9c762
-- https://mychen76.medium.com/practical-techniques-to-constraint-llm-output-in-json-format-e3e72396c670
+  - Langchain model, llama oder huggingface model -> muss noch getestet werden
+  - Kor
+  - Code: https://github.com/gkamradt/langchain-tutorials/blob/main/data_generation/Expert%20Structured%20Output%20(Using%20Kor).ipynb
+  - https://mychen76.medium.com/practical-techniques-to-constraint-llm-output-in-json-format-e3e72396c670
+
+
+Finetune LLM:
+    - use PDFs and fine tune model https://www.youtube.com/watch?v=pxhkDaKzBaY https://www.youtube.com/watch?v=eC6Hd1hFvos
+    - fine tune to generate json output?
+
+
 - https://discuss.huggingface.co/t/extract-data-from-text-and-parse-it-as-a-json/64971 (https://github.com/1rgs/jsonformer)
-- https://huggingface.co/Tostino/Inkbot-13B-8k-0.2
 - https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/
 
 ## German Foreclosure Auction Sites
