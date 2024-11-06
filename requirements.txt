@@ -14,6 +14,9 @@ marker-pdf
 # llm libs
 kor
 langchain
-llama-cpp-python
+# llama-cpp-python, kann nicht lokal installiert werden über pypi, deswegen folgendes bei einer nvidia gpu:
+# git clone --recursive -j8 https://github.com/abetlen/llama-cpp-python.git
+# CODA_HOME=""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6" CMAKE_ARGS="-DGGML_CUDA=on" CUDACXX="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" FORCE_CMAKE=1 pip install -e . --force-reinstall --no-cache-dir --verbose
 huggingface_hub
 langchain-community
+lm-format-enforcer
