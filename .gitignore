@@ -1,3 +1,6 @@
 .venv
 logs
 llama-cpp-python
+LLM_Planning_And_Reasoning
+test_pdfs
+downloaded_pdfs

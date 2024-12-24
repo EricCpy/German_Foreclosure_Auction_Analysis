@@ -1,0 +1,121 @@
+## Beispiel 1
+ 
+{ "objekte": [ { "flaeche": 100, "verkehrswert": 63000, "typ": "Wohnung", "baujahr": 1924, "heizsystem": null, "raeume": 4, "raum_typen": [ "Wohnzimmer", "Küche", "Badezimmer", "Abstellraum" ], "balkon": false, "garten": false } ], "gesamtverkehrswert": 63000 } 
+
+ 
+
+ 
+
+ 
+ 
+## Beispiel 2
+ 
+{ "objekte": [ { "flaeche": 25, "verkehrswert": 283000, "typ": "Wohnung", "baujahr": 1959, "heizsystem": null, "raeume": 3, "raum_typen": ["Wohnzimmer", "Küche", "Badezimmer"], "balkon": false, "garten": true}],  "gesamtverkehrswert": 283000 } 
+ 
+
+ 
+
+ 
+
+ 
+## Beispiel 3
+ 
+
+{ "objekte": [ { "flaeche": 921, "verkehrswert": 88000, "typ": "Haus", "baujahr": null, "heizsystem": null, "raeume": null, "raum_typen": [], "balkon": false, "garten": false } ], "gesamtverkehrswert": 88000 } 
+
+ 
+
+ 
+
+ 
+
+
+## Beispiel 4
+ 
+{ "objekte": [ { "typ": "Haus", "flaeche": 208, "verkehrswert": 125000, "baujahr": null, "heizsystem": null, "raeume": null, "raum_typen": [], "balkon": false, "garten": false } ], "gesamtverkehrswert": 125000 } 
+ 
+
+ 
+
+ 
+
+ 
+## Beispiel 5
+ 
+
+{ "objekte": [ { "flaeche": 66, "verkehrswert": 99000, "typ": "Wohnung", "baujahr": 1966, "heizsystem": null, "raeume": 3, "raum_typen": [], "balkon": false, "garten": false } ], "gesamtverkehrswert": 99000 } 
+
+ 
+
+ 
+
+ 
+
+
+## Beispiel 6
+ 
+{ "objekte": [ { "flaeche": 195, "verkehrswert": 87600, "typ": "Wohnung", "baujahr": 1897, "heizsystem": null, "raeume": 4, "raum_typen": [ "Küche", "Badezimmer", "Abstellraum", "Wohnzimmer" ], "balkon": false, "garten": false } ], "gesamtverkehrswert": 87600 } 
+
+ 
+
+ 
+
+ 
+
+
+## Beispiel 7
+ 
+
+{
+"objekte": [
+{
+"flaeche": 67,
+"raeume": 2,
+"raum_typen": ["Wohnzimmer", "Küche"],
+"verkehrswert": 250000,
+"typ": "Wohnung",
+"balkon": true,
+"garten": false,
+"heizsystem": "Gas",
+"baujahr": 1900
+},
+{
+"flaeche": 64,
+"raeume": 3,
+"raum_typen": ["Badezimmer", "Hauswirtschaftsraum", "Flur"],
+"verkehrswert": 240000,
+"typ": "Wohnung",
+"balkon": false,
+"garten": false,
+"heizsystem": "Gas",
+"baujahr": 1900
+}
+],
+"gesamtverkehrswert": 580000
+} 
+
+## Beispiel 8
+ 
+
+{ "objekte": [ { "flaeche": 62, "verkehrswert": 258000, "typ": "Wohnung", "baujahr": null, "heizsystem": null, "raeume": 2, "raum_typen": ["Badezimmer", "Küche"], "balkon": true, "garten": false } ], "gesamtverkehrswert": 258000 } 
+
+ 
+
+ 
+
+ 
+
+
+## Beispiel 9
+ 
+
+{ "objekte": [ { "flaeche": 108, "verkehrswert": 139000, "typ": "Anderes", "baujahr": null, "heizsystem": null, "raeume": null, "raum_typen": [], "balkon": false, "garten": false } ], "gesamtverkehrswert": 139000 } 
+ 
+
+ 
+
+ 
+
+ 
+## Beispiel 10
+ { "objekte": [ { "flaeche": 66, "typ": "Haus", "verkehrswert": 285000, "raeume": null, "baujahr": 2000, "heizsystem": null, "raum_typen": [], "balkon": false, "garten": true } ], "gesamtverkehrswert": 285000 } 

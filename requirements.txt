@@ -20,3 +20,6 @@ langchain
 huggingface_hub
 langchain-community
 lm-format-enforcer
+
+# visualizations
+matplotlib
