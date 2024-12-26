@@ -1,4 +1,4 @@
-#autogluon 3.12 november supports python 3.12
+autogluon==3.12
 jupyter==1.1.1
 pandas==2.2.3
 matplotlib==3.9.2
