@@ -5,6 +5,7 @@ matplotlib==3.9.2
 beautifulsoup4==4.12.3
 SQLAlchemy==2.0.36
 pydantic==2.9.2
+geopandas==1.0.1 
 # pdf libs
 pypdf
 PyMuPDF

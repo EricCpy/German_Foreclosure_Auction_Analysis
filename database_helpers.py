@@ -38,7 +38,7 @@ class ForeclosureObjectSchema(Base):
     foreclosurecase_link = Column(String, ForeignKey('foreclosure_data.link'), nullable=False)
     flaeche = Column(Integer, nullable=True)
     verkehrswert = Column(Integer, nullable=False)
-    typ = Column(String, nullable=True)
+    typ = Column(String, nullable=False)
     baujahr = Column(Integer, nullable=True)
     raeume = Column(Integer, nullable=True)
     raum_typen = Column(String, nullable=False)

@@ -5,3 +5,5 @@ LLM_Planning_And_Reasoning
 test_pdfs
 tmp
 __pycache__
+data/*
+!data/zwangsversteigerungen.csv
