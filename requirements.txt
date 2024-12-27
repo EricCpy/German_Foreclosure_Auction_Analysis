@@ -1,26 +1,32 @@
-autogluon==3.12
+# general
 jupyter==1.1.1
 pandas==2.2.3
-matplotlib==3.9.2
 beautifulsoup4==4.12.3
 SQLAlchemy==2.0.36
 pydantic==2.9.2
 geopandas==1.0.1 
-# pdf libs
-pypdf
-PyMuPDF
-pymupdf4llm
-marker-pdf
+PyMuPDF==1.25.1 
+scipy==1.14.1 
+
+# ML
+autogluon==3.12
+scikit-learn==1.6.0 
 
 # llm libs
-kor
-langchain
+huggingface-hub==0.27.0 
+lm-format-enforcer==0.10.9 
 # llama-cpp-python, kann nicht lokal installiert werden über pypi, deswegen folgendes bei einer nvidia gpu:
 # git clone --recursive -j8 https://github.com/abetlen/llama-cpp-python.git
 # CODA_HOME=""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6" CMAKE_ARGS="-DGGML_CUDA=on" CUDACXX="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" FORCE_CMAKE=1 pip install -e . --force-reinstall --no-cache-dir --verbose
-huggingface_hub
-langchain-community
-lm-format-enforcer
 
 # visualizations
-matplotlib
+matplotlib==3.10.0
+seaborn==0.13.2 
+
+# experiments
+# pypdf
+# pymupdf4llm
+# marker-pdf
+# kor
+# langchain
+# langchain-community
