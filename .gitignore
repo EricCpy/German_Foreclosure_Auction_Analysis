@@ -9,3 +9,4 @@ data/*
 !data/zwangsversteigerungen.csv
 !data/best_model.joblib
 !data/images/
+vortragsnotizen.md
