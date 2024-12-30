@@ -182,15 +182,15 @@ Looking at these relationships is interesting because these variables are predic
 **Rooms vs. Price (`Verkehrswert in €`):**
 
 There is a slight upward trend suggesting that apartments with more rooms generally have higher prices. However, the correlation is weak, as indicated by the following metrics:  
-- **Pearson Correlation**: 0.118  
-- **Spearman Correlation**: 0.114  
+- **Pearson Correlation**: 0.041 
+- **Spearman Correlation**: 0.047 
 
 This weak relationship suggests that the connection may not be linear, that errors might exist in the extracted data or that the number of rooms alone is insufficient to explain property values. For instance, it seems implausible that a 10-room apartment would cost only around 200k€ unless it is in extremely poor condition or located in an undesirable area.
 
 **Construction Year (`Baujahr`) vs. Price (`Verkehrswert in €`):**  
 For the construction year, we observe a similar weak relationship and correlation as with the number of rooms:  
-- **Pearson Correlation**: 0.022  
-- **Spearman Correlation**: 0.235  
+- **Pearson Correlation**: 0.026  
+- **Spearman Correlation**: 0.224 
 
 This lack of strong correlation could be attributed to the wide range of construction years in the dataset and the diverse conditions of the properties. Older buildings, in particular, may vary significantly in their states of preservation or renovation, which influences the relationship between construction year and property value.
 
