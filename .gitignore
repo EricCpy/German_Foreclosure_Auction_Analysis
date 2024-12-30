@@ -8,3 +8,4 @@ __pycache__
 data/*
 !data/zwangsversteigerungen.csv
 !data/best_model.joblib
+!data/images/
